@@ -1,14 +1,16 @@
-package com.aditya;
+package com.aditya.entity;
+
+import com.aditya.service.StudentService;
 
 public class Student {
 
     StudentService studentService;
 
-    Student(StudentService studentService) {
+    public Student(StudentService studentService) {
         this.studentService = studentService;
     }
 
-    int getAverageMarks() {
+    public int getAverageMarks() {
         return studentService.getTotalMarks() / studentService.getTotalStudents();
     }
 

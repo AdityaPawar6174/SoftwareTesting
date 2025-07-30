@@ -1,4 +1,4 @@
-package com.aditya;
+package com.aditya.service;
 
 public interface StudentService {
     int getTotalMarks();
