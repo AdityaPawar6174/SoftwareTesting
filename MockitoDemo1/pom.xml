@@ -36,5 +36,15 @@
       <version>4.11.0</version>
       <scope>test</scope>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.mockito/mockito-junit-jupiter -->
+    <!-- This dependency is used for JUnit 5 integration with Mockito -->
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-junit-jupiter</artifactId>
+      <version>4.11.0</version> <!-- Match version with mockito-core -->
+      <scope>test</scope>
+    </dependency>
+
   </dependencies>
 </project>
